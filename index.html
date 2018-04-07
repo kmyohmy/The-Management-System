@@ -5,10 +5,45 @@
 	<title>Document</title>
 </head>
 <body>
+	<div id="Profile">
+		
+		
+	</div>
 	
 	<div id="EmployeeIDPhoto"></div>
- 	<div id="Profile"></div>
+ 	
 	<div id="btnDirectEdit"></div>
 	
+	
+	<h1>Employee Management Application</h1>
+	<div id="header">
+		<button id="sortEmployees">Show Employees</button>
+		<input type="text" id="name" placeholder="Name" value='' required>
+		<input type="text" id="title" placeholder="Title" value='' required>
+		<input type="number" id="extension" placeholder="Extension" value='' required>
+		<input type="submit" id="AddEmployee" value="Add Employee">
+		
+		<div id="mainContent">
+
+			<h2>Employees</h2>
+
+			<table id="employeeTable">
+				<tbody>
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Title</th>
+							<th>Extension</th>
+							<th>Delete or Nah?</th>
+						</tr>
+					</thead>
+					
+					<tr id="sample"></tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+
 </body>
 </html>
